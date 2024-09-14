@@ -1,0 +1,28 @@
+﻿Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,6075.94,72911.28,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,1555.8168,18669.8,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (m6i.2xlarge), Pricing strategy ( 3yr  No Upfront), Enable monitoring (disabled), EBS Storage amount (25 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,3484.626,41815.51,USD,,"Storage amount (1 TB), Storage volume (General Purpose SSD (gp2)), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,233,2796,USD,,"Hosted Zones (1), Basic Checks Within AWS (150), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0,USD,,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,309.33,3711.96,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,237.25,2847,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Deep Archive,0,1.03,12.36,USD,,"S3 Glacier Deep Archive Average Object Size (16 MB), S3 Glacier Deep Archive storage (1 TB per month)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,19.3625,232.35,USD,,"Number of Metrics (includes detailed and custom metrics) (10), Standard Logs: Data Ingested (10 GB), Logs Delivered to CloudWatch Logs: Data Ingested (15 GB), Logs Delivered to S3: Data Ingested (15 GB), Number of other API requests ()"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+Changed,,,,,,,,,
+Amazon EC2:  Use 3-years reserved for Pricing strategy,,,,,,,,,
+Amazon RDS for PostgreSQL: Use 1-year reserved for Pricing strategy,,,,,,,,,
+Application Load Balancer: reduces number of processed GB per month LCU,,,,,,,,,
